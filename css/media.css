@@ -1,0 +1,50 @@
+@media (max-width: 1199px) {
+    
+    .info-block h1 {
+        font-size: 50px;;
+    }
+    .info-description {
+        font-size: 14px;
+    }
+    .menu ul li .menu-link {
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .m-menu-link {
+        display: flex;
+    }
+    .visible-lg {
+        display: none;
+    }
+    .price-blocks {
+        flex-direction: column;
+        
+    }
+    .price-block {
+        width: 90%;
+        margin: 20px auto;
+    }
+    .footer-bar .menu {
+        display: none;
+    }
+    .footer-bar .logo {
+        margin-left: 0;
+    }
+    footer {
+        flex-direction: column;
+    }
+    .icons {
+        width: 24px;
+        height: 24px;
+    }
+    .readmore h5 {
+        font-size: 25px;
+    }
+}
+
+    
+
